@@ -1,7 +1,7 @@
 ## Specify phone tech before including full_phone
-#$(call inherit-product, vendor/mk/config/cdma.mk)
+$(call inherit-product, vendor/mk/config/cdma.mk)
 # For GSM builds, use below, for CDMA, use above
-$(call inherit-product, vendor/mk/config/gsm.mk)
+#$(call inherit-product, vendor/mk/config/gsm.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
